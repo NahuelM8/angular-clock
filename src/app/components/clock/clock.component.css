@@ -1,0 +1,57 @@
+
+.clock-container {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.clock-text {
+  color: #f5f5f5;
+  font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.date-text {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #c0b9b9;
+  font-size: 40px;
+  display: inline-block;
+}
+
+
+.period-icon {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (max-width: 568px) {
+
+  .clock-container {
+    height: 150px;
+  }
+
+  .clock-text {
+    font-size: 50px;
+  }
+
+  .date-text {
+    font-size: 20px;
+  }
+
+  .period-icon {
+    height: 20px;
+    width: 20px;
+  }
+}
+

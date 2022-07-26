@@ -1,0 +1,8 @@
+<div class="clock-container">
+  <h1 class="clock-text">{{ fullHour }} <span>{{ ampm }}</span></h1>
+  <div class="date">
+    <h3 class="date-text">{{ fullDate }}</h3>
+    <img *ngIf="stateOfDay" class="period-icon" [src]="stateOfDay" alt="period of day">
+  </div>
+</div>
+
